@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590DFFD6E7D9EEF1AF56EBAC /* Pods_WebML1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B441A92081A71346C2DAB7 /* Pods_WebML1_0.framework */; };
+		FF277AEB23E9CF8300959574 /* BreastCancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AE623E9CF8300959574 /* BreastCancer.swift */; };
+		FF277AEC23E9CF8300959574 /* HeartDisease.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AE723E9CF8300959574 /* HeartDisease.swift */; };
+		FF277AED23E9CF8300959574 /* Diabetes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AE823E9CF8300959574 /* Diabetes.swift */; };
+		FF277AEE23E9CF8300959574 /* Sepsis.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AE923E9CF8300959574 /* Sepsis.swift */; };
+		FF277AEF23E9CF8300959574 /* Liver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AEA23E9CF8300959574 /* Liver.swift */; };
+		FF9E5AB323E9A415008648EE /* SkinLesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5AB223E9A415008648EE /* SkinLesion.swift */; };
+		FF9E5AB523E9B5CB008648EE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5AB423E9B5CB008648EE /* HomeVC.swift */; };
+		FF9E5ABC23E9C457008648EE /* ham10000.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5ABA23E9C457008648EE /* ham10000.mlmodel */; };
+		FF9E5ABD23E9C457008648EE /* SkinCancer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5ABB23E9C457008648EE /* SkinCancer.mlmodel */; };
+		FF9E5ABF23E9C727008648EE /* SepsisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5ABE23E9C727008648EE /* SepsisVC.swift */; };
 		FFD59F0323E9855200EF2B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F0223E9855200EF2B11 /* AppDelegate.swift */; };
 		FFD59F0523E9855200EF2B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F0423E9855200EF2B11 /* SceneDelegate.swift */; };
-		FFD59F0723E9855200EF2B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F0623E9855200EF2B11 /* ViewController.swift */; };
 		FFD59F0A23E9855200EF2B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD59F0823E9855200EF2B11 /* Main.storyboard */; };
 		FFD59F0C23E9855500EF2B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD59F0B23E9855500EF2B11 /* Assets.xcassets */; };
 		FFD59F0F23E9855500EF2B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD59F0D23E9855500EF2B11 /* LaunchScreen.storyboard */; };
+		FFD59F2123E9878200EF2B11 /* liver.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F1A23E9878200EF2B11 /* liver.mlmodel */; };
+		FFD59F2223E9878200EF2B11 /* sepsis.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F1B23E9878200EF2B11 /* sepsis.mlmodel */; };
+		FFD59F2423E9878200EF2B11 /* breast_cancer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F1D23E9878200EF2B11 /* breast_cancer.mlmodel */; };
+		FFD59F2523E9878200EF2B11 /* heartdisease.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F1E23E9878200EF2B11 /* heartdisease.mlmodel */; };
+		FFD59F2723E9878200EF2B11 /* diabetesmlmodel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F2023E9878200EF2B11 /* diabetesmlmodel.mlmodel */; };
+		FFD59F2923E98F1D00EF2B11 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD59F2823E98F1D00EF2B11 /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69B441A92081A71346C2DAB7 /* Pods_WebML1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebML1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B9712BC47649066F7276AE /* Pods-WebML1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebML1.0.debug.xcconfig"; path = "Target Support Files/Pods-WebML1.0/Pods-WebML1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		C781EBF20E509F52AFF60BFA /* Pods-WebML1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebML1.0.release.xcconfig"; path = "Target Support Files/Pods-WebML1.0/Pods-WebML1.0.release.xcconfig"; sourceTree = "<group>"; };
+		FF277AE623E9CF8300959574 /* BreastCancer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreastCancer.swift; sourceTree = "<group>"; };
+		FF277AE723E9CF8300959574 /* HeartDisease.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartDisease.swift; sourceTree = "<group>"; };
+		FF277AE823E9CF8300959574 /* Diabetes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diabetes.swift; sourceTree = "<group>"; };
+		FF277AE923E9CF8300959574 /* Sepsis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sepsis.swift; sourceTree = "<group>"; };
+		FF277AEA23E9CF8300959574 /* Liver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Liver.swift; sourceTree = "<group>"; };
+		FF9E5AB223E9A415008648EE /* SkinLesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinLesion.swift; sourceTree = "<group>"; };
+		FF9E5AB423E9B5CB008648EE /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FF9E5ABA23E9C457008648EE /* ham10000.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ham10000.mlmodel; path = ../../../WebML_iOS0.1/HealthCare/ham10000.mlmodel; sourceTree = "<group>"; };
+		FF9E5ABB23E9C457008648EE /* SkinCancer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SkinCancer.mlmodel; path = ../../../WebML_iOS0.1/HealthCare/SkinCancer.mlmodel; sourceTree = "<group>"; };
+		FF9E5ABE23E9C727008648EE /* SepsisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepsisVC.swift; sourceTree = "<group>"; };
 		FFD59EFF23E9855200EF2B11 /* WebML1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebML1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD59F0223E9855200EF2B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFD59F0423E9855200EF2B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFD59F0623E9855200EF2B11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFD59F0923E9855200EF2B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFD59F0B23E9855500EF2B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFD59F0E23E9855500EF2B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFD59F1023E9855500EF2B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD59F1A23E9878200EF2B11 /* liver.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = liver.mlmodel; sourceTree = "<group>"; };
+		FFD59F1B23E9878200EF2B11 /* sepsis.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sepsis.mlmodel; sourceTree = "<group>"; };
+		FFD59F1D23E9878200EF2B11 /* breast_cancer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = breast_cancer.mlmodel; sourceTree = "<group>"; };
+		FFD59F1E23E9878200EF2B11 /* heartdisease.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = heartdisease.mlmodel; sourceTree = "<group>"; };
+		FFD59F2023E9878200EF2B11 /* diabetesmlmodel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = diabetesmlmodel.mlmodel; sourceTree = "<group>"; };
+		FFD59F2823E98F1D00EF2B11 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590DFFD6E7D9EEF1AF56EBAC /* Pods_WebML1_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39C010EA51877DE8DBE4BC58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B441A92081A71346C2DAB7 /* Pods_WebML1_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4EA04D827265E99483054A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98B9712BC47649066F7276AE /* Pods-WebML1.0.debug.xcconfig */,
+				C781EBF20E509F52AFF60BFA /* Pods-WebML1.0.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FFD59EF623E9855200EF2B11 = {
 			isa = PBXGroup;
 			children = (
 				FFD59F0123E9855200EF2B11 /* WebML1.0 */,
 				FFD59F0023E9855200EF2B11 /* Products */,
+				F4EA04D827265E99483054A5 /* Pods */,
+				39C010EA51877DE8DBE4BC58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,62 @@
 		FFD59F0123E9855200EF2B11 /* WebML1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				FFD59F1923E9873900EF2B11 /* MLModels */,
+				FFD59F1823E9872A00EF2B11 /* Model */,
+				FFD59F1723E9871E00EF2B11 /* View */,
 				FFD59F0223E9855200EF2B11 /* AppDelegate.swift */,
 				FFD59F0423E9855200EF2B11 /* SceneDelegate.swift */,
-				FFD59F0623E9855200EF2B11 /* ViewController.swift */,
-				FFD59F0823E9855200EF2B11 /* Main.storyboard */,
+				FFD59F1623E9870000EF2B11 /* Controller */,
 				FFD59F0B23E9855500EF2B11 /* Assets.xcassets */,
 				FFD59F0D23E9855500EF2B11 /* LaunchScreen.storyboard */,
 				FFD59F1023E9855500EF2B11 /* Info.plist */,
 			);
 			path = WebML1.0;
+			sourceTree = "<group>";
+		};
+		FFD59F1623E9870000EF2B11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E5AB423E9B5CB008648EE /* HomeVC.swift */,
+				FF9E5AB223E9A415008648EE /* SkinLesion.swift */,
+				FF9E5ABE23E9C727008648EE /* SepsisVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFD59F1723E9871E00EF2B11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFD59F0823E9855200EF2B11 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFD59F1823E9872A00EF2B11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFD59F2823E98F1D00EF2B11 /* home.swift */,
+				FF277AE623E9CF8300959574 /* BreastCancer.swift */,
+				FF277AE823E9CF8300959574 /* Diabetes.swift */,
+				FF277AE723E9CF8300959574 /* HeartDisease.swift */,
+				FF277AEA23E9CF8300959574 /* Liver.swift */,
+				FF277AE923E9CF8300959574 /* Sepsis.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFD59F1923E9873900EF2B11 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				FFD59F1D23E9878200EF2B11 /* breast_cancer.mlmodel */,
+				FFD59F2023E9878200EF2B11 /* diabetesmlmodel.mlmodel */,
+				FFD59F1E23E9878200EF2B11 /* heartdisease.mlmodel */,
+				FFD59F1A23E9878200EF2B11 /* liver.mlmodel */,
+				FF9E5ABA23E9C457008648EE /* ham10000.mlmodel */,
+				FF9E5ABB23E9C457008648EE /* SkinCancer.mlmodel */,
+				FFD59F1B23E9878200EF2B11 /* sepsis.mlmodel */,
+			);
+			path = MLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFD59F1323E9855500EF2B11 /* Build configuration list for PBXNativeTarget "WebML1.0" */;
 			buildPhases = (
+				DDFF955CE986BD211A924BE3 /* [CP] Check Pods Manifest.lock */,
 				FFD59EFB23E9855200EF2B11 /* Sources */,
 				FFD59EFC23E9855200EF2B11 /* Frameworks */,
 				FFD59EFD23E9855200EF2B11 /* Resources */,
+				10AE018A5690DFF5DB660EFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +236,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10AE018A5690DFF5DB660EFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebML1.0/Pods-WebML1.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebML1.0/Pods-WebML1.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebML1.0/Pods-WebML1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFF955CE986BD211A924BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebML1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFD59EFB23E9855200EF2B11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD59F0723E9855200EF2B11 /* ViewController.swift in Sources */,
+				FFD59F2723E9878200EF2B11 /* diabetesmlmodel.mlmodel in Sources */,
+				FFD59F2223E9878200EF2B11 /* sepsis.mlmodel in Sources */,
+				FF277AEB23E9CF8300959574 /* BreastCancer.swift in Sources */,
 				FFD59F0323E9855200EF2B11 /* AppDelegate.swift in Sources */,
 				FFD59F0523E9855200EF2B11 /* SceneDelegate.swift in Sources */,
+				FFD59F2423E9878200EF2B11 /* breast_cancer.mlmodel in Sources */,
+				FF9E5AB323E9A415008648EE /* SkinLesion.swift in Sources */,
+				FF9E5ABC23E9C457008648EE /* ham10000.mlmodel in Sources */,
+				FF9E5ABF23E9C727008648EE /* SepsisVC.swift in Sources */,
+				FFD59F2123E9878200EF2B11 /* liver.mlmodel in Sources */,
+				FF277AEE23E9CF8300959574 /* Sepsis.swift in Sources */,
+				FF277AED23E9CF8300959574 /* Diabetes.swift in Sources */,
+				FFD59F2923E98F1D00EF2B11 /* home.swift in Sources */,
+				FF9E5AB523E9B5CB008648EE /* HomeVC.swift in Sources */,
+				FF277AEF23E9CF8300959574 /* Liver.swift in Sources */,
+				FFD59F2523E9878200EF2B11 /* heartdisease.mlmodel in Sources */,
+				FF277AEC23E9CF8300959574 /* HeartDisease.swift in Sources */,
+				FF9E5ABD23E9C457008648EE /* SkinCancer.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +442,7 @@
 		};
 		FFD59F1423E9855500EF2B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B9712BC47649066F7276AE /* Pods-WebML1.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +461,7 @@
 		};
 		FFD59F1523E9855500EF2B11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C781EBF20E509F52AFF60BFA /* Pods-WebML1.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
