@@ -240,7 +240,7 @@
                         <outletCollection property="diabetesText" destination="TUx-Fd-E8E" collectionClass="NSMutableArray" id="wsC-DL-ttK"/>
                         <outletCollection property="diabetesText" destination="rq1-X0-J2D" collectionClass="NSMutableArray" id="Oon-rw-jv7"/>
                         <outletCollection property="diabetesText" destination="S29-9a-tRi" collectionClass="NSMutableArray" id="Bbt-KW-2YK"/>
-                        <segue destination="VFD-bT-yzB" kind="presentation" identifier="results" id="SwN-eU-42n"/>
+                        <segue destination="VFD-bT-yzB" kind="presentation" identifier="result" id="SwN-eU-42n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mnM-tF-8At" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -286,7 +286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L81-Q7-T0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3032.8000000000002" y="126.38680659670166"/>
+            <point key="canvasLocation" x="3673" y="125"/>
         </scene>
         <!--LiverVC-->
         <scene sceneID="0yf-MZ-TtK">
@@ -498,46 +498,12 @@
                         <outletCollection property="liverText" destination="R90-ZM-cW5" collectionClass="NSMutableArray" id="b2r-WN-KlP"/>
                         <outletCollection property="liverText" destination="Lsn-eF-g4s" collectionClass="NSMutableArray" id="jWq-g9-hEx"/>
                         <outletCollection property="liverText" destination="hlP-3j-0vV" collectionClass="NSMutableArray" id="J8i-Cb-UJD"/>
-                        <segue destination="cwg-go-n75" kind="presentation" identifier="results" id="f4y-Cg-hnv"/>
+                        <segue destination="VFD-bT-yzB" kind="presentation" identifier="result" id="Od2-se-HVQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oec-7s-Zbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-634" y="1053"/>
-        </scene>
-        <!--ResultVC-->
-        <scene sceneID="tUC-me-o4Z">
-            <objects>
-                <viewController id="cwg-go-n75" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iNp-ja-frv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jgk-HK-RMY">
-                                <rect key="frame" x="40" y="20" width="295" height="205"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="205" id="jlg-CE-yAx"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Jgk-HK-RMY" firstAttribute="leading" secondItem="l4e-6w-m0k" secondAttribute="leading" constant="40" id="4Mu-uD-10b"/>
-                            <constraint firstItem="l4e-6w-m0k" firstAttribute="trailing" secondItem="Jgk-HK-RMY" secondAttribute="trailing" constant="40" id="7hf-TG-dCa"/>
-                            <constraint firstItem="Jgk-HK-RMY" firstAttribute="top" secondItem="l4e-6w-m0k" secondAttribute="top" constant="20" id="cuB-zl-Gp0"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="l4e-6w-m0k"/>
-                    </view>
-                    <connections>
-                        <outlet property="resultsLabel" destination="Jgk-HK-RMY" id="mbt-xn-7jk"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8M4-wd-Mm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="220" y="1054.7226386806597"/>
         </scene>
         <!--BreastVC-->
         <scene sceneID="pin-EN-B7t">
@@ -1097,46 +1063,12 @@
                         <outletCollection property="breastText" destination="mlp-ev-miK" collectionClass="NSMutableArray" id="qpg-C9-g8A"/>
                         <outletCollection property="breastText" destination="Gab-DA-6Bf" collectionClass="NSMutableArray" id="qd4-Me-XTe"/>
                         <outletCollection property="breastText" destination="gzU-rF-8li" collectionClass="NSMutableArray" id="pfC-8d-70Q"/>
-                        <segue destination="Yde-76-KAu" kind="presentation" identifier="result" id="zhL-DS-tLB"/>
+                        <segue destination="VFD-bT-yzB" kind="presentation" identifier="result" id="Oru-i2-Umd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZf-94-RO3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1007" y="1361"/>
-        </scene>
-        <!--ResultVC-->
-        <scene sceneID="Q5q-fp-QYT">
-            <objects>
-                <viewController id="Yde-76-KAu" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zoW-oW-i9t">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qHk-wx-iSx">
-                                <rect key="frame" x="16" y="20" width="343" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="dzT-nF-pWX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="qHk-wx-iSx" firstAttribute="leading" secondItem="kfO-Zl-sFY" secondAttribute="leading" constant="16" id="9Mo-BU-Bwm"/>
-                            <constraint firstItem="kfO-Zl-sFY" firstAttribute="trailing" secondItem="qHk-wx-iSx" secondAttribute="trailing" constant="16" id="oFL-ne-8bV"/>
-                            <constraint firstItem="qHk-wx-iSx" firstAttribute="top" secondItem="kfO-Zl-sFY" secondAttribute="top" constant="20" id="uHv-xY-PKq"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="kfO-Zl-sFY"/>
-                    </view>
-                    <connections>
-                        <outlet property="resultsLabel" destination="qHk-wx-iSx" id="rpR-No-aF0"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wde-Hm-AUP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1861.5999999999999" y="1568.3658170914543"/>
         </scene>
         <!--SepsisVC-->
         <scene sceneID="8PS-sq-uMS">
@@ -1408,47 +1340,12 @@
                         <outletCollection property="sepsisText" destination="bCO-9B-e0h" collectionClass="NSMutableArray" id="DWc-1c-hDj"/>
                         <outletCollection property="sepsisText" destination="AoC-ZT-0cX" collectionClass="NSMutableArray" id="M9e-64-vc8"/>
                         <outletCollection property="sepsisText" destination="TCg-rD-yZw" collectionClass="NSMutableArray" id="GfL-gW-Ykw"/>
-                        <segue destination="DMM-v0-aew" kind="presentation" identifier="sepsisResult" id="KKL-Zi-H8B"/>
+                        <segue destination="VFD-bT-yzB" kind="presentation" identifier="result" id="HKL-pp-eah"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Pn-qA-PpR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2105" y="860"/>
-        </scene>
-        <!--ResultVC-->
-        <scene sceneID="6K7-K9-Vou">
-            <objects>
-                <viewController id="DMM-v0-aew" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kDk-rw-haa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8RT-BP-cuf">
-                                <rect key="frame" x="34" y="39" width="307" height="190"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="190" id="fHx-rK-vTo"/>
-                                    <constraint firstAttribute="height" constant="190" id="qLx-eq-YWf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="xrU-SS-ACg" firstAttribute="trailing" secondItem="8RT-BP-cuf" secondAttribute="trailing" constant="34" id="3gc-VT-aYJ"/>
-                            <constraint firstItem="8RT-BP-cuf" firstAttribute="leading" secondItem="xrU-SS-ACg" secondAttribute="leading" constant="34" id="CCK-f3-Uv4"/>
-                            <constraint firstItem="8RT-BP-cuf" firstAttribute="top" secondItem="xrU-SS-ACg" secondAttribute="top" constant="39" id="gQy-2F-a7H"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="xrU-SS-ACg"/>
-                    </view>
-                    <connections>
-                        <outlet property="resultsLabel" destination="8RT-BP-cuf" id="UHz-d7-6NS"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ER6-V5-oMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3078" y="860"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="flf-lb-w06">
@@ -1857,58 +1754,19 @@
                         <outletCollection property="heartText" destination="4gT-Gn-Pnt" collectionClass="NSMutableArray" id="Wqf-M4-YbQ"/>
                         <outletCollection property="heartText" destination="Dpe-Fk-VPm" collectionClass="NSMutableArray" id="LlE-e1-2Yc"/>
                         <outletCollection property="heartText" destination="q4a-y1-5yZ" collectionClass="NSMutableArray" id="s5D-oi-dWM"/>
-                        <segue destination="v9U-tn-GZe" kind="presentation" identifier="result" id="b1w-Sm-avN"/>
+                        <segue destination="VFD-bT-yzB" kind="presentation" identifier="result" id="lac-Qt-xJp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DyU-x7-FqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2244" y="-572.56371814092961"/>
-        </scene>
-        <!--ResultVC-->
-        <scene sceneID="f8T-6i-FkM">
-            <objects>
-                <viewController id="v9U-tn-GZe" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fIq-Jj-0x7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="xyA-qh-x4d">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zvi-Ys-Ay1">
-                                <rect key="frame" x="34" y="20" width="307" height="190"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="190" id="Ui1-Fv-50C"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="190" id="ilw-jw-Ia9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="xyA-qh-x4d" firstAttribute="top" secondItem="fIq-Jj-0x7" secondAttribute="top" id="JC8-Pa-Z2E"/>
-                            <constraint firstAttribute="bottom" secondItem="xyA-qh-x4d" secondAttribute="bottom" id="JFt-11-y1q"/>
-                            <constraint firstItem="zvi-Ys-Ay1" firstAttribute="leading" secondItem="Px3-ve-EdT" secondAttribute="leading" constant="34" id="UZW-UI-QKK"/>
-                            <constraint firstAttribute="trailing" secondItem="xyA-qh-x4d" secondAttribute="trailing" id="gNn-jL-wf5"/>
-                            <constraint firstItem="xyA-qh-x4d" firstAttribute="leading" secondItem="fIq-Jj-0x7" secondAttribute="leading" id="p9Z-dD-Gk1"/>
-                            <constraint firstItem="Px3-ve-EdT" firstAttribute="trailing" secondItem="zvi-Ys-Ay1" secondAttribute="trailing" constant="34" id="pdQ-E3-R8o"/>
-                            <constraint firstItem="zvi-Ys-Ay1" firstAttribute="top" secondItem="Px3-ve-EdT" secondAttribute="top" constant="20" id="uPV-QL-BjR"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Px3-ve-EdT"/>
-                    </view>
-                    <connections>
-                        <outlet property="resultsLabel" destination="zvi-Ys-Ay1" id="opY-PY-RJC"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iDW-0P-NTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3048.8000000000002" y="-576.1619190404798"/>
+
         </scene>
     </scenes>
     <resources>
         <image name="2" width="1000" height="1000"/>
         <image name="camera.fill" catalog="system" width="64" height="48"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="HKL-pp-eah"/>
+    </inferredMetricsTieBreakers>
 </document>
