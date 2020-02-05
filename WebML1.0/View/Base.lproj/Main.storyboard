@@ -15,6 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="ADa-fz-Efe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mfq-UO-DEE">
                                 <rect key="frame" x="58" y="462" width="258" height="64"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -39,6 +42,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fcj-73-IWA" secondAttribute="bottom" constant="320" id="P68-L2-HZ9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mfq-UO-DEE" secondAttribute="trailing" constant="59" id="Ryr-Yx-aPI"/>
                             <constraint firstItem="Mfq-UO-DEE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="UTe-ic-u80"/>
+                            <constraint firstAttribute="bottom" secondItem="ADa-fz-Efe" secondAttribute="bottom" id="Vza-23-DQQ"/>
+                            <constraint firstAttribute="trailing" secondItem="ADa-fz-Efe" secondAttribute="trailing" id="Z9o-CV-dQU"/>
+                            <constraint firstItem="ADa-fz-Efe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="apc-dX-5he"/>
+                            <constraint firstItem="ADa-fz-Efe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xZK-A6-RKW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mfq-UO-DEE" secondAttribute="bottom" constant="141" id="yoh-3g-OzV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -57,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1207" y="126"/>
+            <point key="canvasLocation" x="-1207.2" y="125.4872563718141"/>
         </scene>
         <!--DiabetesVC-->
         <scene sceneID="zfg-TP-mne">
@@ -1864,6 +1871,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="2" width="1000" height="1000"/>
         <image name="camera.fill" catalog="system" width="64" height="48"/>
     </resources>
 </document>
