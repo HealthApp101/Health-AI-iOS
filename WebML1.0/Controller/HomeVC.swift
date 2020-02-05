@@ -23,6 +23,9 @@ class HomeVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
         diseasePicker.dataSource = self
         navigationController?.navigationBar.barTintColor = UIColor.darkGray
         navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
     }
      
     @IBAction func submitPressed(_ sender: UIButton) {

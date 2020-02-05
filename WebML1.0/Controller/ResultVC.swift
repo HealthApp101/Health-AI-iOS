@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DiabetesResult : UIViewController{
+class ResultVC : UIViewController{
     @IBOutlet weak var resultsLabel: UILabel!
     var result : String = ""
     override func viewDidLoad() {

@@ -9,7 +9,7 @@
 import UIKit
 import CoreML
 
-class DiabetesVC : UIViewController,UINavigationControllerDelegate{
+class DiabetesVC : UIViewController{
     
     @IBOutlet var diabetesText: [UITextField]!
     
@@ -27,15 +27,15 @@ class DiabetesVC : UIViewController,UINavigationControllerDelegate{
                 fatalError("Input")
         }
         results = output.Outcome
-        self.navigationItem.title = "\(results)"
+//        self.navigationItem.title = "\(results)"
         print(results)
         print(output)
-       performSegue(withIdentifier: "results", sender: self)
+       performSegue(withIdentifier: "result", sender: self)
         
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let resultVC = segue.destination as! DiabetesResult
+        let resultVC = segue.destination as! ResultVC
         if results == 1 {
             resultVC.result = "Congrats!! Our algo has predicted you don't have Diabetes"
         }

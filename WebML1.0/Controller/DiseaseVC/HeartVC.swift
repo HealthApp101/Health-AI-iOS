@@ -9,8 +9,9 @@
 import UIKit
 import CoreML
 
-class HeartVC : UIViewController, UINavigationControllerDelegate{
+class HeartVC : UIViewController{
     @IBOutlet var heartText: [UITextField]!
+    var results : Int64 = 0
     override func viewDidLoad() {
            super.viewDidLoad()
        }
@@ -21,10 +22,20 @@ class HeartVC : UIViewController, UINavigationControllerDelegate{
                fatalError("Input Failed")
            }
            
-           let price = output.target
-           self.navigationItem.title = "\(price)"
-           print(price)
+           results = output.target
+       //    self.navigationItem.title = "\(price)"
+        performSegue(withIdentifier: "result", sender: self)
+           print(results)
        }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let result = segue.destination as! ResultVC
+        if results == 1 {
+                   result.result = "Congrats!! Our algo has predicted you don't have Heart Disease"
+               }
+               else {
+                   result.result = "Our algo has predicted you have a Heart Disease"
+          }
+    }
     @IBAction func submitPressed(_ sender: UIButton) {
         var count = 0
                    for textfields in heartText{
