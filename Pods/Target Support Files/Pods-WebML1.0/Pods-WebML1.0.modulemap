@@ -1,4 +1,4 @@
-framework module Pods_WebML1_0 {
+module Pods_WebML1_0 {
   umbrella header "Pods-WebML1.0-umbrella.h"
 
   export *
