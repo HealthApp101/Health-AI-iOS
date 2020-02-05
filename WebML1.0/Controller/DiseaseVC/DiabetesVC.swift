@@ -30,7 +30,7 @@ class DiabetesVC : UIViewController{
 //        self.navigationItem.title = "\(results)"
         print(results)
         print(output)
-       performSegue(withIdentifier: "results", sender: self)
+       performSegue(withIdentifier: "result", sender: self)
         
         
     }

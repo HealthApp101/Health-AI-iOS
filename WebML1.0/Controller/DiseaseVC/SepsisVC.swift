@@ -22,7 +22,7 @@ class SepsisVC : UIViewController {
            }
             results = output.SepsisLabel
 //           self.navigationItem.title = "\(result)"
-           performSegue(withIdentifier: "sepsisResult", sender: self)
+           performSegue(withIdentifier: "result", sender: self)
            print(results)
        }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

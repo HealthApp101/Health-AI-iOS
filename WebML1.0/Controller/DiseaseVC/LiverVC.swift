@@ -26,7 +26,7 @@ class LiverVC : UIViewController{
         }
        
         let result = output.Dataset
-        performSegue(withIdentifier: "results", sender: self)
+        performSegue(withIdentifier: "result", sender: self)
         print(result)
         //self.navigationItem.title = "\(result)"
     }
