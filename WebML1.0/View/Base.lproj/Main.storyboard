@@ -60,11 +60,12 @@
                         <segue destination="VeV-F3-GIt" kind="show" identifier="Diabetes" id="dJE-wK-M6l"/>
                         <segue destination="enz-Ks-PDK" kind="show" identifier="Heart Disease" id="I0B-Js-s54"/>
                         <segue destination="hdb-MC-g42" kind="show" identifier="Liver Disease" id="mLw-cs-bUd"/>
+                        <segue destination="L0r-H5-pW1" kind="show" identifier="Pneumonia" id="oFd-nH-8Lj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1207.2" y="125.4872563718141"/>
+            <point key="canvasLocation" x="-1233" y="121"/>
         </scene>
         <!--DiabetesVC-->
         <scene sceneID="zfg-TP-mne">
@@ -252,7 +253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mnM-tF-8At" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2108" y="121"/>
+            <point key="canvasLocation" x="2066" y="-595"/>
         </scene>
         <!--ResultVC-->
         <scene sceneID="03Q-O4-TcE">
@@ -517,7 +518,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oec-7s-Zbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-634.39999999999998" y="1052.9235382308846"/>
+            <point key="canvasLocation" x="92" y="860"/>
         </scene>
         <!--BreastVC-->
         <scene sceneID="pin-EN-B7t">
@@ -1095,7 +1096,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZf-94-RO3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1005.6" y="1360.1199400299852"/>
+            <point key="canvasLocation" x="1057" y="1167"/>
         </scene>
         <!--SepsisVC-->
         <scene sceneID="8PS-sq-uMS">
@@ -1376,7 +1377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Pn-qA-PpR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2105" y="860"/>
+            <point key="canvasLocation" x="2108" y="860"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="flf-lb-w06">
@@ -1394,7 +1395,65 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Obm-tr-9zA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2342" y="126"/>
+            <point key="canvasLocation" x="-2343" y="125"/>
+        </scene>
+        <!--PnuemoniaVC-->
+        <scene sceneID="OTJ-5i-lS0">
+            <objects>
+                <viewController id="L0r-H5-pW1" customClass="PnuemoniaVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B8v-zr-WNk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="mRC-f8-Wec">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="MNK-WW-OKx">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSh-4G-VuT">
+                                        <rect key="frame" x="107" y="317.5" width="161" height="73"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" backgroundImage="camera.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="cameraPressed:" destination="9my-Tp-nuh" eventType="touchUpInside" id="vDW-rY-Zvo"/>
+                                            <action selector="submitPressed:" destination="L0r-H5-pW1" eventType="touchUpInside" id="sMb-hT-hYu"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PXs-hr-cFX">
+                                        <rect key="frame" x="50" y="66" width="275" height="421"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="MNK-WW-OKx" firstAttribute="leading" secondItem="mRC-f8-Wec" secondAttribute="leading" id="3jg-A2-LGG"/>
+                                    <constraint firstAttribute="trailing" secondItem="MNK-WW-OKx" secondAttribute="trailing" id="3wX-dd-4t3"/>
+                                    <constraint firstItem="PXs-hr-cFX" firstAttribute="top" secondItem="lyk-3r-2BZ" secondAttribute="top" constant="22" id="9ze-VN-z5S"/>
+                                    <constraint firstItem="PXs-hr-cFX" firstAttribute="leading" secondItem="lyk-3r-2BZ" secondAttribute="leading" constant="50" id="FGM-dm-mJ5"/>
+                                    <constraint firstItem="xSh-4G-VuT" firstAttribute="centerX" secondItem="mRC-f8-Wec" secondAttribute="centerX" id="JLu-Ex-rrj"/>
+                                    <constraint firstAttribute="bottom" secondItem="MNK-WW-OKx" secondAttribute="bottom" id="QEA-1R-bk6"/>
+                                    <constraint firstItem="lyk-3r-2BZ" firstAttribute="bottom" secondItem="xSh-4G-VuT" secondAttribute="bottom" constant="275" id="Rpd-f7-AAL"/>
+                                    <constraint firstItem="lyk-3r-2BZ" firstAttribute="trailing" secondItem="PXs-hr-cFX" secondAttribute="trailing" constant="50" id="VIx-Bo-gwo"/>
+                                    <constraint firstItem="MNK-WW-OKx" firstAttribute="top" secondItem="mRC-f8-Wec" secondAttribute="top" id="Xh1-gg-haw"/>
+                                    <constraint firstItem="xSh-4G-VuT" firstAttribute="leading" secondItem="lyk-3r-2BZ" secondAttribute="leading" constant="107" id="qua-7O-oAW"/>
+                                    <constraint firstItem="lyk-3r-2BZ" firstAttribute="bottom" secondItem="PXs-hr-cFX" secondAttribute="bottom" constant="180" id="rmf-eh-6QI"/>
+                                    <constraint firstItem="xSh-4G-VuT" firstAttribute="top" secondItem="lyk-3r-2BZ" secondAttribute="top" constant="273" id="wGI-5E-bea"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="lyk-3r-2BZ"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="psZ-Re-bJG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GT3-sa-FG6"/>
+                    <connections>
+                        <outlet property="image" destination="PXs-hr-cFX" id="S36-Hg-GnT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrn-NB-DEh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-860" y="-595"/>
         </scene>
         <!--Skin CancerVC-->
         <scene sceneID="H86-OM-8NC">
@@ -1444,7 +1503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prB-Et-NpV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="92" y="-595.05247376311854"/>
+            <point key="canvasLocation" x="1057" y="-595"/>
         </scene>
         <!--Skin Lesion-->
         <scene sceneID="Al8-TC-BTD">
@@ -1511,7 +1570,7 @@
                     <viewLayoutGuide key="safeArea" id="HvX-US-63Z"/>
                 </stackView>
             </objects>
-            <point key="canvasLocation" x="1040.8" y="-562.66866566716647"/>
+            <point key="canvasLocation" x="162" y="-595"/>
         </scene>
         <!--HeartVC-->
         <scene sceneID="Jba-Ek-w3p">
@@ -1790,7 +1849,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DyU-x7-FqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="134"/>
+            <point key="canvasLocation" x="-860" y="860"/>
         </scene>
     </scenes>
     <resources>
@@ -1798,6 +1857,6 @@
         <image name="camera.fill" catalog="system" width="64" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Od2-se-HVQ"/>
+        <segue reference="SwN-eU-42n"/>
     </inferredMetricsTieBreakers>
 </document>
