@@ -9,9 +9,12 @@
 import UIKit
 import CoreML
 
-class LiverVC : UIViewController, UINavigationControllerDelegate{
+class LiverVC : UIViewController{
 
     @IBOutlet var liverText: [UITextField]!
+    
+    var results : Int64 = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -23,10 +26,19 @@ class LiverVC : UIViewController, UINavigationControllerDelegate{
         }
        
         let result = output.Dataset
+        performSegue(withIdentifier: "results", sender: self)
         print(result)
-        self.navigationItem.title = "\(result)"
+        //self.navigationItem.title = "\(result)"
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let result = segue.destination as! ResultVC
+        if results == 1 {
+                   result.result = "Congrats!! Our algo has predicted you don't have Liver Disease"
+               }
+               else {
+                   result.result = "Our algo has predicted you have Liver Disease"
+          }
+    }
     
     @IBAction func submitPressed(_ sender: UIButton) { var count = 0
                for textfields in liverText{

@@ -15,11 +15,11 @@
 		FF277AEF23E9CF8300959574 /* Liver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AEA23E9CF8300959574 /* Liver.swift */; };
 		FF277AF723E9F50600959574 /* SkinCancerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AF623E9F50600959574 /* SkinCancerVC.swift */; };
 		FF277AFB23EA081200959574 /* DiabetesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277AFA23EA081200959574 /* DiabetesVC.swift */; };
-		FF277B0323EA166C00959574 /* LiverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF277B0223EA166C00959574 /* LiverVC.swift */; };
 		FF9427AF23EAB5B000E1A6EB /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9427AE23EAB5B000E1A6EB /* ResultVC.swift */; };
 		FF9427B523EB203F00E1A6EB /* SepsisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9427B423EB203E00E1A6EB /* SepsisVC.swift */; };
 		FF9427B923EB24B000E1A6EB /* HeartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9427B823EB24B000E1A6EB /* HeartVC.swift */; };
 		FF9427BB23EB26F500E1A6EB /* BreastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9427BA23EB26F500E1A6EB /* BreastVC.swift */; };
+		FF9427BD23EB28E300E1A6EB /* LiverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9427BC23EB28E300E1A6EB /* LiverVC.swift */; };
 		FF9E5AB323E9A415008648EE /* SkinLesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5AB223E9A415008648EE /* SkinLesion.swift */; };
 		FF9E5AB523E9B5CB008648EE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5AB423E9B5CB008648EE /* HomeVC.swift */; };
 		FF9E5ABC23E9C457008648EE /* ham10000.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FF9E5ABA23E9C457008648EE /* ham10000.mlmodel */; };
@@ -48,12 +48,12 @@
 		FF277AEA23E9CF8300959574 /* Liver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Liver.swift; sourceTree = "<group>"; };
 		FF277AF623E9F50600959574 /* SkinCancerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinCancerVC.swift; sourceTree = "<group>"; };
 		FF277AFA23EA081200959574 /* DiabetesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiabetesVC.swift; sourceTree = "<group>"; };
-		FF277B0223EA166C00959574 /* LiverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiverVC.swift; sourceTree = "<group>"; };
 		FF6AF79D23EA961F002BFE36 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9427AE23EAB5B000E1A6EB /* ResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 		FF9427B423EB203E00E1A6EB /* SepsisVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SepsisVC.swift; sourceTree = "<group>"; };
 		FF9427B823EB24B000E1A6EB /* HeartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartVC.swift; sourceTree = "<group>"; };
 		FF9427BA23EB26F500E1A6EB /* BreastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreastVC.swift; sourceTree = "<group>"; };
+		FF9427BC23EB28E300E1A6EB /* LiverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiverVC.swift; sourceTree = "<group>"; };
 		FF9E5AB223E9A415008648EE /* SkinLesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinLesion.swift; sourceTree = "<group>"; };
 		FF9E5AB423E9B5CB008648EE /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FF9E5ABA23E9C457008648EE /* ham10000.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ham10000.mlmodel; path = ../../../WebML_iOS0.1/HealthCare/ham10000.mlmodel; sourceTree = "<group>"; };
@@ -109,10 +109,10 @@
 				FF9E5AB223E9A415008648EE /* SkinLesion.swift */,
 				FF9427B423EB203E00E1A6EB /* SepsisVC.swift */,
 				FF9427BA23EB26F500E1A6EB /* BreastVC.swift */,
+				FF9427BC23EB28E300E1A6EB /* LiverVC.swift */,
 				FF277AF623E9F50600959574 /* SkinCancerVC.swift */,
 				FF9427B823EB24B000E1A6EB /* HeartVC.swift */,
 				FF277AFA23EA081200959574 /* DiabetesVC.swift */,
-				FF277B0223EA166C00959574 /* LiverVC.swift */,
 			);
 			path = DiseaseVC;
 			sourceTree = "<group>";
@@ -304,6 +304,7 @@
 				FF9E5ABC23E9C457008648EE /* ham10000.mlmodel in Sources */,
 				FFD59F2123E9878200EF2B11 /* liver.mlmodel in Sources */,
 				FF277AEE23E9CF8300959574 /* Sepsis.swift in Sources */,
+				FF9427BD23EB28E300E1A6EB /* LiverVC.swift in Sources */,
 				FF277AF723E9F50600959574 /* SkinCancerVC.swift in Sources */,
 				FF277AFB23EA081200959574 /* DiabetesVC.swift in Sources */,
 				FF277AED23E9CF8300959574 /* Diabetes.swift in Sources */,
@@ -313,7 +314,6 @@
 				FFD59F2523E9878200EF2B11 /* heartdisease.mlmodel in Sources */,
 				FF277AEC23E9CF8300959574 /* HeartDisease.swift in Sources */,
 				FF9427BB23EB26F500E1A6EB /* BreastVC.swift in Sources */,
-				FF277B0323EA166C00959574 /* LiverVC.swift in Sources */,
 				FF9427B923EB24B000E1A6EB /* HeartVC.swift in Sources */,
 				FF9E5ABD23E9C457008648EE /* SkinCancer.mlmodel in Sources */,
 				FF9427AF23EAB5B000E1A6EB /* ResultVC.swift in Sources */,

@@ -57,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1041" y="154"/>
+            <point key="canvasLocation" x="-1207" y="126"/>
         </scene>
         <!--DiabetesVC-->
         <scene sceneID="zfg-TP-mne">
@@ -484,11 +484,46 @@
                         <outletCollection property="liverText" destination="R90-ZM-cW5" collectionClass="NSMutableArray" id="b2r-WN-KlP"/>
                         <outletCollection property="liverText" destination="Lsn-eF-g4s" collectionClass="NSMutableArray" id="jWq-g9-hEx"/>
                         <outletCollection property="liverText" destination="hlP-3j-0vV" collectionClass="NSMutableArray" id="J8i-Cb-UJD"/>
+                        <segue destination="cwg-go-n75" kind="presentation" identifier="results" id="f4y-Cg-hnv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oec-7s-Zbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="163" y="1054"/>
+            <point key="canvasLocation" x="-634" y="1053"/>
+        </scene>
+        <!--ResultVC-->
+        <scene sceneID="tUC-me-o4Z">
+            <objects>
+                <viewController id="cwg-go-n75" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iNp-ja-frv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jgk-HK-RMY">
+                                <rect key="frame" x="40" y="20" width="295" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="jlg-CE-yAx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jgk-HK-RMY" firstAttribute="leading" secondItem="l4e-6w-m0k" secondAttribute="leading" constant="40" id="4Mu-uD-10b"/>
+                            <constraint firstItem="l4e-6w-m0k" firstAttribute="trailing" secondItem="Jgk-HK-RMY" secondAttribute="trailing" constant="40" id="7hf-TG-dCa"/>
+                            <constraint firstItem="Jgk-HK-RMY" firstAttribute="top" secondItem="l4e-6w-m0k" secondAttribute="top" constant="20" id="cuB-zl-Gp0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="l4e-6w-m0k"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultsLabel" destination="Jgk-HK-RMY" id="mbt-xn-7jk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8M4-wd-Mm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="1054.7226386806597"/>
         </scene>
         <!--BreastVC-->
         <scene sceneID="pin-EN-B7t">
@@ -1417,7 +1452,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Obm-tr-9zA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="128.57142857142856"/>
+            <point key="canvasLocation" x="-2342" y="126"/>
         </scene>
         <!--Skin CancerVC-->
         <scene sceneID="H86-OM-8NC">
