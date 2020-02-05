@@ -13,7 +13,10 @@ class DiabetesResult : UIViewController{
     var result : String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        resultsLabel.lineBreakMode = .byWordWrapping
+        resultsLabel.numberOfLines = 0
         resultsLabel.text = result
+        resultsLabel.textColor = .white
     }
 
 }

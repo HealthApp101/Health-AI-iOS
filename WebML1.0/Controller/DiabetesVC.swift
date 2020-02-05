@@ -36,13 +36,13 @@ class DiabetesVC : UIViewController,UINavigationControllerDelegate{
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultVC = segue.destination as! DiabetesResult
-//        if results == 1 {
-//            resultVC.result = "Congrats!! Our algo has predicted you don't have Diabetes"
-//        }
-//        else {
-//            resultVC.result = "Our algo has predicted you have Diabetes"
-//        }
-        resultVC.result="\(results)"
+        if results == 1 {
+            resultVC.result = "Congrats!! Our algo has predicted you don't have Diabetes"
+        }
+        else {
+            resultVC.result = "Our algo has predicted you have Diabetes"
+   }
+       // resultVC.result="\(results)"
     }
     @IBAction func submitPressed(_ sender: UIButton) {
         var count = 0
