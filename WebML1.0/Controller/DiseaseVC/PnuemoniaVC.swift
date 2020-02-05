@@ -45,7 +45,7 @@ class PnuemoniaVC : UIViewController, UINavigationControllerDelegate,UIImagePick
     }
     
     func detect(image:CIImage){
-        guard let model = try? VNCoreMLModel(for: SkinCancer().model) else {
+        guard let model = try? VNCoreMLModel(for: pneumonia().model) else {
             fatalError("Model Failed")
         }
         let request = VNCoreMLRequest(model: model) { (request, error) in

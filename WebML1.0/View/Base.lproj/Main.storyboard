@@ -1430,15 +1430,27 @@
                                     <constraint firstItem="MNK-WW-OKx" firstAttribute="leading" secondItem="mRC-f8-Wec" secondAttribute="leading" id="3jg-A2-LGG"/>
                                     <constraint firstAttribute="trailing" secondItem="MNK-WW-OKx" secondAttribute="trailing" id="3wX-dd-4t3"/>
                                     <constraint firstItem="PXs-hr-cFX" firstAttribute="top" secondItem="lyk-3r-2BZ" secondAttribute="top" constant="22" id="9ze-VN-z5S"/>
+                                    <constraint firstItem="MNK-WW-OKx" firstAttribute="trailing" secondItem="lyk-3r-2BZ" secondAttribute="trailing" id="A9H-NP-xKi"/>
+                                    <constraint firstItem="xSh-4G-VuT" firstAttribute="leading" secondItem="lyk-3r-2BZ" secondAttribute="leading" constant="107" id="AuL-t1-zU2"/>
                                     <constraint firstItem="PXs-hr-cFX" firstAttribute="leading" secondItem="lyk-3r-2BZ" secondAttribute="leading" constant="50" id="FGM-dm-mJ5"/>
                                     <constraint firstItem="xSh-4G-VuT" firstAttribute="centerX" secondItem="mRC-f8-Wec" secondAttribute="centerX" id="JLu-Ex-rrj"/>
                                     <constraint firstAttribute="bottom" secondItem="MNK-WW-OKx" secondAttribute="bottom" id="QEA-1R-bk6"/>
                                     <constraint firstItem="lyk-3r-2BZ" firstAttribute="bottom" secondItem="xSh-4G-VuT" secondAttribute="bottom" constant="275" id="Rpd-f7-AAL"/>
+                                    <constraint firstItem="lyk-3r-2BZ" firstAttribute="trailing" secondItem="xSh-4G-VuT" secondAttribute="trailing" constant="107" id="SLP-wB-AYy"/>
+                                    <constraint firstItem="lyk-3r-2BZ" firstAttribute="trailing" secondItem="PXs-hr-cFX" secondAttribute="trailing" constant="50" id="TDW-db-s8z"/>
                                     <constraint firstItem="lyk-3r-2BZ" firstAttribute="trailing" secondItem="PXs-hr-cFX" secondAttribute="trailing" constant="50" id="VIx-Bo-gwo"/>
+                                    <constraint firstItem="xSh-4G-VuT" firstAttribute="top" secondItem="lyk-3r-2BZ" secondAttribute="top" constant="273" id="VKO-3J-wPi"/>
+                                    <constraint firstItem="MNK-WW-OKx" firstAttribute="leading" secondItem="lyk-3r-2BZ" secondAttribute="leading" id="X5z-as-OLy"/>
+                                    <constraint firstItem="PXs-hr-cFX" firstAttribute="leading" secondItem="lyk-3r-2BZ" secondAttribute="leading" constant="50" id="XNT-5V-5zI"/>
                                     <constraint firstItem="MNK-WW-OKx" firstAttribute="top" secondItem="mRC-f8-Wec" secondAttribute="top" id="Xh1-gg-haw"/>
+                                    <constraint firstItem="lyk-3r-2BZ" firstAttribute="bottom" secondItem="PXs-hr-cFX" secondAttribute="bottom" constant="180" id="ZHl-Ch-Nvv"/>
+                                    <constraint firstItem="PXs-hr-cFX" firstAttribute="top" secondItem="lyk-3r-2BZ" secondAttribute="top" constant="22" id="gBp-Q7-hXz"/>
+                                    <constraint firstItem="MNK-WW-OKx" firstAttribute="top" secondItem="mRC-f8-Wec" secondAttribute="top" id="nf9-Ia-gap"/>
                                     <constraint firstItem="xSh-4G-VuT" firstAttribute="leading" secondItem="lyk-3r-2BZ" secondAttribute="leading" constant="107" id="qua-7O-oAW"/>
                                     <constraint firstItem="lyk-3r-2BZ" firstAttribute="bottom" secondItem="PXs-hr-cFX" secondAttribute="bottom" constant="180" id="rmf-eh-6QI"/>
+                                    <constraint firstItem="MNK-WW-OKx" firstAttribute="bottom" secondItem="lyk-3r-2BZ" secondAttribute="bottom" id="w2W-bO-eQC"/>
                                     <constraint firstItem="xSh-4G-VuT" firstAttribute="top" secondItem="lyk-3r-2BZ" secondAttribute="top" constant="273" id="wGI-5E-bea"/>
+                                    <constraint firstItem="lyk-3r-2BZ" firstAttribute="bottom" secondItem="xSh-4G-VuT" secondAttribute="bottom" constant="275" id="yoa-S8-yyI"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="lyk-3r-2BZ"/>
                             </view>
