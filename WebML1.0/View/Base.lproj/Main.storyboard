@@ -1469,6 +1469,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="IVp-Mq-kPD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnv-dL-WSV">
                                 <rect key="frame" x="107" y="311" width="161" height="73"/>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1489,7 +1492,11 @@
                             <constraint firstItem="svF-9E-D12" firstAttribute="trailing" secondItem="aOY-Lo-AuH" secondAttribute="trailing" constant="50" id="CCe-Pe-j6r"/>
                             <constraint firstItem="aOY-Lo-AuH" firstAttribute="leading" secondItem="svF-9E-D12" secondAttribute="leading" constant="50" id="FFm-5U-a8y"/>
                             <constraint firstItem="lnv-dL-WSV" firstAttribute="top" secondItem="svF-9E-D12" secondAttribute="top" constant="266.5" id="OeW-hi-mdl"/>
+                            <constraint firstItem="IVp-Mq-kPD" firstAttribute="leading" secondItem="6Gs-Yc-aIB" secondAttribute="leading" id="aSW-BA-h7A"/>
+                            <constraint firstAttribute="bottom" secondItem="IVp-Mq-kPD" secondAttribute="bottom" id="ehM-iI-bRW"/>
+                            <constraint firstAttribute="trailing" secondItem="IVp-Mq-kPD" secondAttribute="trailing" id="hzh-zZ-fmj"/>
                             <constraint firstItem="svF-9E-D12" firstAttribute="bottom" secondItem="lnv-dL-WSV" secondAttribute="bottom" constant="281.5" id="nuB-2t-ssd"/>
+                            <constraint firstItem="IVp-Mq-kPD" firstAttribute="top" secondItem="6Gs-Yc-aIB" secondAttribute="top" id="uJ6-dj-ODP"/>
                             <constraint firstItem="aOY-Lo-AuH" firstAttribute="top" secondItem="svF-9E-D12" secondAttribute="top" constant="15" id="ux9-xp-rv0"/>
                             <constraint firstItem="svF-9E-D12" firstAttribute="trailing" secondItem="lnv-dL-WSV" secondAttribute="trailing" constant="107" id="xpJ-gt-weL"/>
                         </constraints>
@@ -1502,7 +1509,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prB-Et-NpV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="92" y="-595"/>
+            <point key="canvasLocation" x="92" y="-595.05247376311854"/>
         </scene>
         <!--Skin Lesion-->
         <scene sceneID="Al8-TC-BTD">
