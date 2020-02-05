@@ -1519,6 +1519,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="UE0-hW-IDs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZD-jh-Obm">
                                 <rect key="frame" x="107" y="317.5" width="161" height="73"/>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1536,10 +1539,14 @@
                             <constraint firstItem="8ct-j6-TjW" firstAttribute="trailing" secondItem="nMM-Tw-rBQ" secondAttribute="trailing" constant="50" id="Fhb-k2-V8e"/>
                             <constraint firstItem="AZD-jh-Obm" firstAttribute="top" secondItem="8ct-j6-TjW" secondAttribute="top" constant="273" id="HHC-10-cjr"/>
                             <constraint firstItem="nMM-Tw-rBQ" firstAttribute="leading" secondItem="8ct-j6-TjW" secondAttribute="leading" constant="50" id="KWj-c9-H6O"/>
+                            <constraint firstItem="UE0-hW-IDs" firstAttribute="leading" secondItem="5aW-IF-wr7" secondAttribute="leading" id="QJs-C9-WJt"/>
                             <constraint firstItem="nMM-Tw-rBQ" firstAttribute="top" secondItem="8ct-j6-TjW" secondAttribute="top" constant="22" id="U7a-FH-XuC"/>
                             <constraint firstItem="AZD-jh-Obm" firstAttribute="leading" secondItem="8ct-j6-TjW" secondAttribute="leading" constant="107" id="UTw-IU-dMp"/>
+                            <constraint firstAttribute="trailing" secondItem="UE0-hW-IDs" secondAttribute="trailing" id="aLs-6c-NuM"/>
+                            <constraint firstAttribute="bottom" secondItem="UE0-hW-IDs" secondAttribute="bottom" id="abB-md-kXl"/>
                             <constraint firstItem="AZD-jh-Obm" firstAttribute="centerX" secondItem="5aW-IF-wr7" secondAttribute="centerX" id="dNM-8O-9hf"/>
                             <constraint firstItem="8ct-j6-TjW" firstAttribute="bottom" secondItem="AZD-jh-Obm" secondAttribute="bottom" constant="275" id="h9l-sS-vcC"/>
+                            <constraint firstItem="UE0-hW-IDs" firstAttribute="top" secondItem="5aW-IF-wr7" secondAttribute="top" id="jJS-Pl-RcS"/>
                             <constraint firstItem="8ct-j6-TjW" firstAttribute="bottom" secondItem="nMM-Tw-rBQ" secondAttribute="bottom" constant="180" id="jQO-nY-NSi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8ct-j6-TjW"/>
@@ -1569,7 +1576,7 @@
                     <viewLayoutGuide key="safeArea" id="HvX-US-63Z"/>
                 </stackView>
             </objects>
-            <point key="canvasLocation" x="1041" y="-562"/>
+            <point key="canvasLocation" x="1040.8" y="-562.66866566716647"/>
         </scene>
         <!--HeartVC-->
         <scene sceneID="Jba-Ek-w3p">
