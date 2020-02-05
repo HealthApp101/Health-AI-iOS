@@ -240,10 +240,10 @@
             </objects>
             <point key="canvasLocation" x="2108" y="121"/>
         </scene>
-        <!--Diabetes Result-->
+        <!--ResultVC-->
         <scene sceneID="03Q-O4-TcE">
             <objects>
-                <viewController id="VFD-bT-yzB" customClass="DiabetesResult" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VFD-bT-yzB" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bnW-3h-FE7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1331,10 +1331,10 @@
             </objects>
             <point key="canvasLocation" x="2105" y="860"/>
         </scene>
-        <!--Sepsis Result-->
+        <!--ResultVC-->
         <scene sceneID="6K7-K9-Vou">
             <objects>
-                <viewController id="DMM-v0-aew" customClass="SepsisResult" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DMM-v0-aew" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kDk-rw-haa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1750,11 +1750,47 @@
                         <outletCollection property="heartText" destination="4gT-Gn-Pnt" collectionClass="NSMutableArray" id="Wqf-M4-YbQ"/>
                         <outletCollection property="heartText" destination="Dpe-Fk-VPm" collectionClass="NSMutableArray" id="LlE-e1-2Yc"/>
                         <outletCollection property="heartText" destination="q4a-y1-5yZ" collectionClass="NSMutableArray" id="s5D-oi-dWM"/>
+                        <segue destination="v9U-tn-GZe" kind="presentation" identifier="result" id="b1w-Sm-avN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DyU-x7-FqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2245" y="-572"/>
+        </scene>
+        <!--ResultVC-->
+        <scene sceneID="f8T-6i-FkM">
+            <objects>
+                <viewController id="v9U-tn-GZe" customClass="ResultVC" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fIq-Jj-0x7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zvi-Ys-Ay1">
+                                <rect key="frame" x="34" y="20" width="307" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="Ui1-Fv-50C"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="190" id="ilw-jw-Ia9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zvi-Ys-Ay1" firstAttribute="leading" secondItem="Px3-ve-EdT" secondAttribute="leading" constant="34" id="UZW-UI-QKK"/>
+                            <constraint firstItem="Px3-ve-EdT" firstAttribute="trailing" secondItem="zvi-Ys-Ay1" secondAttribute="trailing" constant="34" id="pdQ-E3-R8o"/>
+                            <constraint firstItem="zvi-Ys-Ay1" firstAttribute="top" secondItem="Px3-ve-EdT" secondAttribute="top" constant="20" id="uPV-QL-BjR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Px3-ve-EdT"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultsLabel" destination="zvi-Ys-Ay1" id="opY-PY-RJC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDW-0P-NTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3049" y="-576"/>
         </scene>
     </scenes>
     <resources>

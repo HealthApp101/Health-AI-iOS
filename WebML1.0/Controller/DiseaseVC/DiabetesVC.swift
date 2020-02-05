@@ -35,7 +35,7 @@ class DiabetesVC : UIViewController{
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let resultVC = segue.destination as! DiabetesResult
+        let resultVC = segue.destination as! ResultVC
         if results == 1 {
             resultVC.result = "Congrats!! Our algo has predicted you don't have Diabetes"
         }

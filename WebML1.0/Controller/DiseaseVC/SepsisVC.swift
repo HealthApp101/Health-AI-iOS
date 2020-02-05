@@ -26,7 +26,7 @@ class SepsisVC : UIViewController {
            print(results)
        }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let result = segue.destination as! SepsisResult
+        let result = segue.destination as! ResultVC
         if results == 1 {
                    result.result = "Congrats!! Our algo has predicted you don't have Sepsis"
                }
