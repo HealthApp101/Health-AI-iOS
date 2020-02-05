@@ -10,7 +10,7 @@ import Foundation
 
 struct home {
     let pickerData = [
-    "Skin Cancer" , "Liver Disease" ,
+    "Skin Cancer" , "Liver Disease" , "Pneumonia",
      "Heart Disease" , "Skin Lesion" , "Diabetes" ,
      "Sepsis" , "Breast Cancer"
     ]
