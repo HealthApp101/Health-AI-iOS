@@ -9,7 +9,7 @@
 import UIKit
 import CoreML
 
-class DiabetesVC : UIViewController,UINavigationControllerDelegate{
+class DiabetesVC : UIViewController{
     
     @IBOutlet var diabetesText: [UITextField]!
     
@@ -27,7 +27,7 @@ class DiabetesVC : UIViewController,UINavigationControllerDelegate{
                 fatalError("Input")
         }
         results = output.Outcome
-        self.navigationItem.title = "\(results)"
+//        self.navigationItem.title = "\(results)"
         print(results)
         print(output)
        performSegue(withIdentifier: "results", sender: self)

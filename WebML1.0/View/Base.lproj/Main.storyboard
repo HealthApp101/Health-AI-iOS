@@ -1324,11 +1324,47 @@
                         <outletCollection property="sepsisText" destination="bCO-9B-e0h" collectionClass="NSMutableArray" id="DWc-1c-hDj"/>
                         <outletCollection property="sepsisText" destination="AoC-ZT-0cX" collectionClass="NSMutableArray" id="M9e-64-vc8"/>
                         <outletCollection property="sepsisText" destination="TCg-rD-yZw" collectionClass="NSMutableArray" id="GfL-gW-Ykw"/>
+                        <segue destination="DMM-v0-aew" kind="presentation" identifier="sepsisResult" id="KKL-Zi-H8B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Pn-qA-PpR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2105" y="860"/>
+        </scene>
+        <!--Sepsis Result-->
+        <scene sceneID="6K7-K9-Vou">
+            <objects>
+                <viewController id="DMM-v0-aew" customClass="SepsisResult" customModule="WebML1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kDk-rw-haa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label " textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8RT-BP-cuf">
+                                <rect key="frame" x="34" y="39" width="307" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="190" id="fHx-rK-vTo"/>
+                                    <constraint firstAttribute="height" constant="190" id="qLx-eq-YWf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xrU-SS-ACg" firstAttribute="trailing" secondItem="8RT-BP-cuf" secondAttribute="trailing" constant="34" id="3gc-VT-aYJ"/>
+                            <constraint firstItem="8RT-BP-cuf" firstAttribute="leading" secondItem="xrU-SS-ACg" secondAttribute="leading" constant="34" id="CCK-f3-Uv4"/>
+                            <constraint firstItem="8RT-BP-cuf" firstAttribute="top" secondItem="xrU-SS-ACg" secondAttribute="top" constant="39" id="gQy-2F-a7H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xrU-SS-ACg"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultsLabel" destination="8RT-BP-cuf" id="UHz-d7-6NS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ER6-V5-oMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3078" y="860"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="flf-lb-w06">
