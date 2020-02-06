@@ -36,11 +36,16 @@ class DiabetesVC : UIViewController{
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultVC = segue.destination as! ResultVC
-        if results == 1 {
+        if results == 0 {
             resultVC.result = "Congrats!! Our algo has predicted you don't have Diabetes"
         }
-        else {
-            resultVC.result = "Our algo has predicted you have Diabetes"
+        else if results == 1 {
+            resultVC.result = "Our algorithm has predicted that there is a high chance you might have Diabetes"
+            resultVC.hospitalLabel = "Hospitals Near You"
+            resultVC.url = [
+            "https://duckduckgo.com/?q=diabetes+near+me&t=ffab&atb=v206-4__&ia=web&iaxm=maps&strict_bbox=1&bbox=28.667045396811837%2C77.01119088731559%2C28.557638615291594%2C77.18971871934684&iai=6849351653114250538", "https://duckduckgo.com/?q=diabetes+near+me&t=ffab&atb=v206-4__&ia=web&iaxm=maps&strict_bbox=1&bbox=28.667045396811837%2C77.01119088731559%2C28.557638615291594%2C77.18971871934684&iai=2146742508691932086" , "https://duckduckgo.com/?q=diabetes+near+me&t=ffab&atb=v206-4__&ia=web&iaxm=maps&strict_bbox=1&bbox=28.667045396811837%2C77.01119088731559%2C28.557638615291594%2C77.18971871934684&iai=5729504019425965219"]
+            resultVC.hospName = [
+            "Diabetes Solution,Mohan Garden", "Diabetes Clinic, Janakpuri", "Global Wellness Centre Total Diabetes Care, Dashrathpuri"]
    }
        // resultVC.result="\(results)"
     }

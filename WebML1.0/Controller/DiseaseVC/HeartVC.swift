@@ -29,11 +29,11 @@ class HeartVC : UIViewController{
        }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let result = segue.destination as! ResultVC
-        if results == 1 {
+        if results == 0 {
                    result.result = "Congrats!! Our algo has predicted you don't have Heart Disease"
                }
-               else {
-                   result.result = "Our algo has predicted you have a Heart Disease"
+               else if results == 1 {
+                   result.result = "Our algo has predicted that you have a high chance of a Heart Disease"
           }
     }
     @IBAction func submitPressed(_ sender: UIButton) {
