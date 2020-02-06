@@ -7,5 +7,7 @@ target 'WebML1.0' do
 
   # Pods for WebML1.0
   pod 'IQKeyboardManagerSwift'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
 
 end

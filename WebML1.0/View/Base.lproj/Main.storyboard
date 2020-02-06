@@ -275,6 +275,11 @@
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zpe-Fj-DEc" userLabel="MapsView">
+                                <rect key="frame" x="16" y="259" width="343" height="336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -289,12 +294,13 @@
                         <viewLayoutGuide key="safeArea" id="IMf-YR-w6t"/>
                     </view>
                     <connections>
+                        <outlet property="mapView" destination="zpe-Fj-DEc" id="B5f-TP-Y9O"/>
                         <outlet property="resultsLabel" destination="xB2-v5-cIo" id="ORR-br-kQ1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L81-Q7-T0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3673" y="125"/>
+            <point key="canvasLocation" x="3672.8000000000002" y="124.58770614692655"/>
         </scene>
         <!--LiverVC-->
         <scene sceneID="0yf-MZ-TtK">
@@ -1593,7 +1599,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="9kF-Nr-YRa">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="667"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="ony-3t-IvZ">
                                 <rect key="frame" x="0.0" y="44" width="375" height="514"/>
@@ -1832,12 +1838,10 @@
                             <constraint firstItem="Cwh-JK-VVk" firstAttribute="leading" secondItem="lbT-2D-vRb" secondAttribute="leading" constant="58" id="Fdx-Op-icQ"/>
                             <constraint firstAttribute="bottom" secondItem="9kF-Nr-YRa" secondAttribute="bottom" id="L7a-S9-Ow2"/>
                             <constraint firstAttribute="bottomMargin" secondItem="9kF-Nr-YRa" secondAttribute="bottom" id="OOo-w2-dNu"/>
-                            <constraint firstAttribute="trailing" secondItem="9kF-Nr-YRa" secondAttribute="trailing" id="jon-t3-EgG"/>
                             <constraint firstItem="ony-3t-IvZ" firstAttribute="top" secondItem="lbT-2D-vRb" secondAttribute="top" id="ula-6q-POr"/>
                             <constraint firstItem="ony-3t-IvZ" firstAttribute="leading" secondItem="z3b-f7-a8g" secondAttribute="leading" id="wgd-2Z-Nr0"/>
                             <constraint firstItem="Cwh-JK-VVk" firstAttribute="top" secondItem="ony-3t-IvZ" secondAttribute="bottom" constant="24" id="ysa-vJ-jmF"/>
                             <constraint firstItem="9kF-Nr-YRa" firstAttribute="leading" secondItem="z3b-f7-a8g" secondAttribute="leading" id="zd7-e8-BPi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9kF-Nr-YRa" secondAttribute="trailing" id="zgw-1T-1G2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lbT-2D-vRb"/>
                     </view>
@@ -1869,6 +1873,6 @@
         <image name="camera.fill" catalog="system" width="64" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SwN-eU-42n"/>
+        <segue reference="lac-Qt-xJp"/>
     </inferredMetricsTieBreakers>
 </document>

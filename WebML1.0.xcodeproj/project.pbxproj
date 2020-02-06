@@ -213,6 +213,7 @@
 				FFD59EFB23E9855200EF2B11 /* Sources */,
 				FFD59EFC23E9855200EF2B11 /* Frameworks */,
 				FFD59EFD23E9855200EF2B11 /* Resources */,
+				05012A89CA7DC37D1A7727BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +271,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		05012A89CA7DC37D1A7727BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebML1.0/Pods-WebML1.0-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebML1.0/Pods-WebML1.0-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebML1.0/Pods-WebML1.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DDFF955CE986BD211A924BE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
