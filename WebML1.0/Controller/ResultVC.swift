@@ -10,6 +10,8 @@ import UIKit
 
 class ResultVC : UIViewController{
     @IBOutlet weak var resultsLabel: UILabel!
+    @IBOutlet var hospButton: [UIButton]!
+    @IBOutlet weak var hospLabel: UILabel!
     var result : String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
