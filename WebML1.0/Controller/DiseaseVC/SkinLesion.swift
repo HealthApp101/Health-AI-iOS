@@ -17,7 +17,7 @@ class SkinLesion : UIViewController,UIImagePickerControllerDelegate,UINavigation
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .camera
         
         imagePicker.allowsEditing = false
     }

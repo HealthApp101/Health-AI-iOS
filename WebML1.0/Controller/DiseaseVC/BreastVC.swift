@@ -29,11 +29,11 @@ class BreastVC : UIViewController{
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let result = segue.destination as! ResultVC
-        if results == 1 {
+        if results == 0 {
             result.result = "Congrats!! Our algo has predicted you don't have Breast Cancer"
         }
-        else {
-            result.result = "Our algo has predicted you have Breast Cancer"
+        else if results == 1 {
+            result.result = "Our algo has predicted that you have a high chance of Breast Cancer"
         }
     }
     

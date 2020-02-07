@@ -18,7 +18,7 @@ class SkinCancerVC : UIViewController, UINavigationControllerDelegate,UIImagePic
         super.viewDidLoad()
         
         imagePicker.delegate = self
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .camera
         
         imagePicker.allowsEditing = false
         
