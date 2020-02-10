@@ -1,7 +1,6 @@
 # HealthApp101 iOS App
 
-WebML iOS App, new from scratch, in Swift.
-
+HealthApp101 iOS App, new from scratch, in Swift.
 
 ## Requirements
 
