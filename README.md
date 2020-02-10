@@ -30,5 +30,7 @@ This app uses the **[MVC](https://www.raywenderlich.com/1000705-model-view-contr
 * [Using MVC in iOS](https://www.raywenderlich.com/1000705-model-view-controller-mvc-in-ios-a-modern-approach)
 * [MVC Pattern in iOS](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html)
 
+## Author
 
+* *[Pushpinder Pal Singh](https://github.com/pushpinderpalsingh)*
 
