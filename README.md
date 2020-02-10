@@ -1,6 +1,6 @@
 # HealthApp101 iOS App
 
-Amahi iOS App, new from scratch, in Swift.
+WebML iOS App, new from scratch, in Swift.
 
 
 ## Requirements
