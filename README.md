@@ -2,7 +2,6 @@
 
 HealthApp101 iOS App, new from scratch, in Swift.
 
-
 ## Requirements
 
 - iOS 9.0+
