@@ -1,6 +1,6 @@
 # HealthApp101 iOS App
 
-Amahi iOS App, new from scratch, in Swift.
+HealthApp101 iOS App, new from scratch, in Swift.
 
 
 ## Requirements
