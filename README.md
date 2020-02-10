@@ -32,5 +32,5 @@ This app uses the **[MVC](https://www.raywenderlich.com/1000705-model-view-contr
 
 ## Author
 
-* *Pushpinder Pal Singh* [Github](https://github.com/pushpinderpalsingh)
+* *[Pushpinder Pal Singh](https://github.com/pushpinderpalsingh)*
 
