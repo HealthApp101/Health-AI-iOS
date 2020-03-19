@@ -1,4 +1,4 @@
-# HealthApp101
+# HealthAI
 
 Our project aims for the betterment of the healthcare sector in India. We are working on timely detection of diseases on the basis of commonly used medical reports. In India, most of the population underestimates the symptoms of a particular disease and do not consult a doctor in time, which results in pernicious disease eventually.
 
